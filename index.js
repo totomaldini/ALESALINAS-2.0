@@ -141,12 +141,9 @@ function ajustarRuleta (){
 		const nombreElement = document.createElement("p");
 		nombreElement.textContent = concepto.nombre;
 		nombreElement.classList.add("nombre");
-		nombreElement.style =`width: calc(${concepto.probabilidad} * var(--escala) * 1.5 / 80); transform-origin: center; transform: rotate(${probabilidadAGrados(concepto.probabilidad) / 2 + probabilidadAGrados(pAcumulada)}deg) translateY(-50%); margin-top: 50%; text-align: center;`
-			
-			
-			/*`width : calc(${concepto.probabilidad} * var(--escala) * 1.5 / 80);
+		nombreElement.style =`width : calc(${concepto.probabilidad} * var(--escala) * 1.5 / 80);
 			transform: rotate(${probabilidadAGrados(concepto.probabilidad)/2+probabilidadAGrados(pAcumulada)}deg)`
-		opcionesContainer.appendChild(nombreElement);*/
+		opcionesContainer.appendChild(nombreElement);
 		//Creo separadores
 		const separadorElement = document.createElement("div");
 		separadorElement.style = `transform: rotate(${probabilidadAGrados(pAcumulada)}deg)`
