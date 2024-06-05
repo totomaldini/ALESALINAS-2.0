@@ -68,7 +68,7 @@ h1{
 	position: absolute;
 	z-index: 10;
 	top: -20px;
-	background-color: rgb(241, 129, 165);
+	background-color: white;
 	height: 40px;
 	width: 7px;
 	pointer-events: none;
