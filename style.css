@@ -55,13 +55,14 @@ h1{
 #cartelGanador{
 	position: absolute;
 	left: -150px;
-	top: -40px;
+	top: -55px;
 	background-color: rgb(241, 129, 165);
 	min-height: 55px;
 	width: 300px;
 	font-weight: bold;
 	border: 2px solid white;
 	color: white
+	border-radius: 10px;
 }
 #marcador{
 	position: absolute;
