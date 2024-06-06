@@ -22,6 +22,26 @@ h1{
 	user-select: none;
 }
 
+.puntero {
+    position: absolute;
+    bottom: 0;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#container2{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 10px;
+
+}
+
 #container{
 	position: relative;
 	display: flex;
@@ -30,6 +50,7 @@ h1{
 	align-items: center;
 	height: 100%;
 	margin: 80px;
+	padding-top: 50px;
 }
 
 .container {
@@ -68,11 +89,11 @@ h1{
 	position: absolute;
 	z-index: 10;
 	top: -20px;
-	background-color: white;
+	background-color: rgba(255, 255, 255, 0);
 	height: 40px;
 	width: 7px;
 	pointer-events: none;
-	border: 2px solid white;
+	border: 2px solid rgba(255, 255, 255, 0);
 }
 
 /* Transportador */
@@ -163,3 +184,4 @@ h1{
 		transform: rotate( var(--giroRuleta) );
 	}
 }
+
