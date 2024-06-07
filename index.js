@@ -64,7 +64,7 @@ function sortear(){
 				ganadorTextoElement.textContent = "."
 				break;
 		}
-	} ,1000)
+	} ,200)
 	/** Numero del 0 al 1 que contiene al ganador del sorteo */
 	const nSorteo = Math.random();
 	/** Cantidad de grados que debe girar la ruleta */
