@@ -91,10 +91,18 @@ ruleta.addEventListener("animationend", ()=>{
 
 		if (ganador === uno.nombre) {
 			const mensajesGanador  = [
-				'¿Es verdad que sos gay?',
-				'¿Sos el hermano de messi',
-				'¿Sos de Boca?',
-				'¿Tu mama es Hombre?',
+				'¿Hace cuánto no tenes sexo?',
+				'¿Máximos besos que diste en una noche?',
+				'¿Tu mejor chamuyo?',
+				'¿Cuantas veces chamuyaste con ropa?',
+				'¿Con cuantas personas te acostaste en toda tu vida?',
+				'¿Cuál es tu imperio romano? Xd',
+				'¿Cual es tu fantasía sexual?',
+				'¿Cuál es tu peor cita?',
+				'¿Cuál es el lugar más raro donde tuve relaciones?',
+				'¿Cuánto fue lo maximo que gastaste en una cita?',
+				'¿Cuál fue el peor chamuyo que te dijeron?',
+				'¿Cuál fue tu máximo en una noche?',
 			];
 			const mensajeAleatorioGanador = mensajesGanador[Math.floor(Math.random() * mensajesGanador.length)];
 			ganadorTextoElement.textContent = mensajeAleatorioGanador;
@@ -103,9 +111,15 @@ ruleta.addEventListener("animationend", ()=>{
 			/*ganadorTextoElement.textContent = 'reto'*/
 			const mensajesPerdedor  = [
 				'tirate del balcon',
-				'chupame los huevos',
-				'agarrame las bolas',
-				'bajate la tanga',
+				'Dale el vaso al que peor te cae',
+				'Dale el vaso al más lind@',
+				'Dale el vaso al más chamuyero', 
+				'Dale de tomar al más alto',
+				'TOMAS O MULTIPLICAS LOS TRAGOS AL PRÓXIMO',
+				'Decí un trabalenguas',
+				'Dale el vaso al amigo con la mama más linda',
+				'Elegí uno/a para darle un pico (o shot)',
+				'Dale el vaso al más pajón',
 			];
 			const mensajeAleatorioPerdedor= mensajesPerdedor[Math.floor(Math.random() * mensajesPerdedor.length)];
 			ganadorTextoElement.textContent = mensajeAleatorioPerdedor;
