@@ -126,7 +126,14 @@ ruleta.addEventListener("animationend", ()=>{
 		}
 
 		if(ganador === tres.nombre){
-			ganadorTextoElement.textContent = 'Toma un Shot cagon..'
+			const mensajesPerdedor1  = [
+				'Toma un Shot',
+				'Toma dos Shot',
+				'Toma tres Shot',
+                        ];
+			const mensajeAleatorioPerdedor1= mensajesPerdedor1[Math.floor(Math.random() * mensajesPerdedor1.length)];
+			ganadorTextoElement.textContent = mensajeAleatorioPerdedor1;
+			/*ganadorTextoElement.textContent = 'Toma un Shot cagon..'*/
 		}
 
 		clearInterval(animacionCarga);
