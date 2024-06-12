@@ -64,6 +64,28 @@ h1{
 	margin: 0 auto;
   }
 
+.instagram-link {
+  display: block;
+  text-align: center;
+  margin-top: 30px;
+}
+.instagram-link img {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  vertical-align: middle;
+  align-items: end;
+}
+.container-div{  
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+  padding-bottom: 20px;
+}
+
 #ruleta{
 	position: relative;
 	box-sizing: border-box;
