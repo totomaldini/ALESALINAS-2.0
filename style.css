@@ -77,13 +77,7 @@ h1{
   align-items: end;
 }
 .container-div{  
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  display: flex;
-  justify-content: center; /* Centrar horizontalmente */
-  align-items: center; /* Centrar verticalmente */
-  padding-bottom: 20px;
+    position: sticky;
 }
 
 #ruleta{
