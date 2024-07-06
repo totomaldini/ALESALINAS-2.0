@@ -103,6 +103,13 @@ ruleta.addEventListener("animationend", ()=>{
 				'¿Cuánto fue lo maximo que gastaste en una cita?',
 				'¿Cuál fue el peor chamuyo que te dijeron?',
 				'¿Cuál fue tu máximo en una noche?',
+				'¿Cuál fue la experiencia más bizarra que tuvisteen una cita?',
+                                '¿Cuál fue la peor excusa que diste para cancelar una cita?',
+                                '¿Cuál fue el mejor chamuyo que te hicieron?',
+                                '¿Te arrepentis de alguna relación o cita?',
+                                '¿Estuviste con algún amigo/a?',
+                                '¿Alguna vez le revisaste el celu a tu pareja?',
+                                '¿Estar de novio/a o soltero/a?',
 			];
 			const mensajeAleatorioGanador = mensajesGanador[Math.floor(Math.random() * mensajesGanador.length)];
 			ganadorTextoElement.textContent = mensajeAleatorioGanador;
@@ -110,7 +117,6 @@ ruleta.addEventListener("animationend", ()=>{
 		if(ganador === dos.nombre){
 			/*ganadorTextoElement.textContent = 'reto'*/
 			const mensajesPerdedor  = [
-				'tirate del balcon',
 				'Dale el vaso al que peor te cae',
 				'Dale el vaso al más lind@',
 				'Dale el vaso al más chamuyero', 
@@ -120,6 +126,10 @@ ruleta.addEventListener("animationend", ()=>{
 				'Dale el vaso al amigo con la mama más linda',
 				'Elegí uno/a para darle un pico (o shot)',
 				'Dale el vaso al más pajón',
+				'Toma si estuviste con alguien que esté en este momento',
+				'Toma si estuviste con algún/a amigo/a',
+				'Toma si te estarias con alguien que esté en la previa.',
+				'Decí la primer letra de la persona que más te guste.',
 			];
 			const mensajeAleatorioPerdedor= mensajesPerdedor[Math.floor(Math.random() * mensajesPerdedor.length)];
 			ganadorTextoElement.textContent = mensajeAleatorioPerdedor;
